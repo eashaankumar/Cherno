@@ -18,6 +18,9 @@ project "Cherno"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader 'chpch.h'
+	pchsource "Cherno/src/chpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -26,6 +29,7 @@ project "Cherno"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 

@@ -4,6 +4,9 @@
     <Filter Include="Cherno">
       <UniqueIdentifier>{24F1BBAB-1093-E681-F94D-FAD5E58E6DD2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cherno\Events">
+      <UniqueIdentifier>{886C7AC9-F42C-F6FF-BD67-3F7D29E73ADC}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Cherno.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Cherno\EntryPoint.h">
       <Filter>Cherno</Filter>
     </ClInclude>
+    <ClInclude Include="src\Cherno\Events\ApplicationEvent.h">
+      <Filter>Cherno\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cherno\Events\Event.h">
+      <Filter>Cherno\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cherno\Events\KeyEvent.h">
+      <Filter>Cherno\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cherno\Events\MouseEvent.h">
+      <Filter>Cherno\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Cherno\Log.h">
       <Filter>Cherno</Filter>
     </ClInclude>
+    <ClInclude Include="src\chpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cherno\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Cherno\Log.cpp">
       <Filter>Cherno</Filter>
     </ClCompile>
+    <ClCompile Include="src\chpch.cpp" />
   </ItemGroup>
 </Project>
