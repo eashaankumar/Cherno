@@ -35,6 +35,8 @@
       <Filter>Cherno</Filter>
     </ClInclude>
     <ClInclude Include="src\chpch.h" />
+    <ClInclude Include="src\Cherno\Window.h" />
+    <ClInclude Include="src\Cherno\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cherno\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>Cherno</Filter>
     </ClCompile>
     <ClCompile Include="src\chpch.cpp" />
+    <ClCompile Include="src\Cherno\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
